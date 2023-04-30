@@ -1,0 +1,47 @@
+[Project]
+Version=3
+Description=Conversor CPP a FB
+Api=fb (FreeBASIC),gdip (Gdi+),sv (Showvars),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -s console
+Output=
+Run=
+Delete=
+[TabOrder]
+CurrentTab=6
+TabOrder=1,2,7,3,4,5,6
+[File]
+1=CPP-FB.bas
+2=variables.bas
+3=cambios_basicos.bas
+4=cambios_variables.bas
+5=comandos.bas
+6=textos.bas
+7=ficheros.bas
+Main=1
+[FileInfo]
+1=0,59,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,78,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,515,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,98,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,1313,1,0,0,8388610,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[BreakPoint]
+1=
+2=
+7=
+3=
+4=
+5=
+6=
